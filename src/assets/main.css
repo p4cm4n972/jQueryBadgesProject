@@ -1,4 +1,10 @@
-
+$/ajax({
+  url:'https://www.codeschool.com/users/p4cm4n972/badges/686.json'
+dataType: 'jsonp',
+success: function(response) {
+  // Handle response
+}
+});
 body {
   font-family: 'Helvetica Neue', serif;
   font-size: 18px;
